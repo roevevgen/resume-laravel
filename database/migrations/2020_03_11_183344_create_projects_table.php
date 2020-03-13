@@ -14,9 +14,9 @@ class CreateProjectsTable extends Migration
     public function up()
     {
         Schema::create('projects', function (Blueprint $table) {
-            $table->id();
-            $table->integer('href');
-            $table->integer('projects');
+            $table->bigIncrements('id');
+            $table->string('href');
+            $table->string('projects');
             $table->text('description');
         });
     }

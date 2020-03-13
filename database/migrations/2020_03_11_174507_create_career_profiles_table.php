@@ -14,7 +14,7 @@ class CreateCareerProfilesTable extends Migration
     public function up()
     {
         Schema::create('career_profiles', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->text('title');
             $table->text('about');
         });

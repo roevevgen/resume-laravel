@@ -15,22 +15,26 @@ class LanguagesSeeder extends Seeder
         $languages = [
             [
                 'lang' => 'Ukrainian',
-                'hold' => 'Professional'
+                'hold' => 'Professional',
+                'title' => 'programming'
             ],
             [
                 'lang' => 'Russian',
-                'hold' => 'Professional'
+                'hold' => 'Professional',
+                'title' => 'english',
             ],
 
             [
                 'lang' => 'English',
-                'hold' => 'Beginning'
+                'hold' => 'Beginning',
+                'title' => 'english',
             ]
         ];
         foreach ($languages as $lang) {
             Languages::create(array(
                 'lang' => $lang['lang'],
                 'hold' => $lang['hold'],
+                'title' => $lang['title']
             ));
         }
     }

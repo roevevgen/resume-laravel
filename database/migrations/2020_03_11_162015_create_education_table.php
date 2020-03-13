@@ -14,11 +14,13 @@ class CreateEducationTable extends Migration
     public function up()
     {
         Schema::create('education', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('courses');
             $table->string('training');
-            $table->timestamp('published_start')->nullable();
-            $table->timestamp('published_end')->nullable();
+            $table->timestamps();
+            $table->date('published_start')->nullable();
+            $table->date('published_end')->nullable();
+
         });
     }
 

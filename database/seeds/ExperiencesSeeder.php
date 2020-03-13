@@ -14,8 +14,8 @@ class ExperiencesSeeder extends Seeder
     {
         $experiences = [
             [
-                'post' => 'post1',
-                'place' => 'City1',
+                'post' => 'Администратор интернет магазина',
+                'place' => 'Ирпень',
                 'duty' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem dignissimos ea excepturi
                 exercitationem maxime perspiciatis porro soluta velit veritatis. Accusantium, aliquid amet at corporis
                  dicta ea error est et facilis impedit ipsam, magni maxime molestias quia quisquam sequi totam ut velit
@@ -25,7 +25,7 @@ class ExperiencesSeeder extends Seeder
                 'published_end' => '2020-03-11 12:00:00'
             ],
             [
-                'post' => 'post2',
+                'post' => 'Програмист PHP',
                 'place' => 'City2',
                 'duty' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem dignissimos ea excepturi
                 exercitationem maxime perspiciatis porro soluta velit veritatis. Accusantium, aliquid amet at corporis
@@ -36,7 +36,7 @@ class ExperiencesSeeder extends Seeder
                 'published_end' => '2020-03-12 12:13:02'
             ],
             [
-                'post' => 'post3',
+                'post' => 'Програмист Laravel',
                 'place' => 'City3',
                 'duty' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem dignissimos ea excepturi
                 exercitationem maxime perspiciatis porro soluta velit veritatis. Accusantium, aliquid amet at corporis
